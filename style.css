@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body{
+    margin: 0 auto;
+}
+
+
+/* navbar rules */
+#navbar{
+    background-color: rgb(25, 77, 133) ;
+    height: 50px;
+    width: 750px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#navbar h1{
+    padding-left: 20px;
+    color: white
+}
+
+#pagetitle{
+    text-align: center;
+}
+
+/* container rules */
+#container{
+    display: flex;
+    width: 750px;
+    min-height: 400px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* border: rgb(89, 209, 245) dashed; */
+    gap: 20px;
+}
+
+/* leftbox rules */
+.leftbox{
+    border: rgb(89, 209, 245) solid;
+    height: 250px;
+    gap: 30px;
+    border-radius: 3%;
+    align-items: center;
+    text-align: center;
+    color:  rgb(230 140 183) ;
+    flex: 1;
+}
+
+
+.leftbox img{
+    height: 150px;
+    width: 150px;
+    padding-left: -14px;
+}
+/* rigthbox */
+.rightbox{
+    flex: 3;
+}
+
+/* each post's rules */
+.post{
+    border: rgb(25, 77, 133) solid;
+    min-height: 150px;
+    gap: 30px;
+    padding-left: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.count{
+    margin-left: 75px;
+}
+.count1{
+    margin-left: 75px;
+}
+.count2{
+    margin-left: 75px;
+}
+    
+.post button{
+    /* margin-top: 30px; */
+    width: 75px;
+    height: 25px;
+    box-shadow: rgb(150, 164, 164) 5px 5px;
+    background-color: rgb(120, 144, 169);
+    color: white;
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+.caption{
+    padding-right: 50px;
+}

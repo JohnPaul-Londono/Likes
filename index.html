@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <h1>Network</h1>
+    </div>
+    <h1 id="pagetitle">Your Feed</h1>
+    <!-- container -->
+    <div id="container">
+        <!-- leftbox -->
+        <div class="leftbox">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png" alt="Mew">
+            <h1>Mew #151</h1>
+        </div>
+        <!-- rightbox with sub boxes -->
+        <div class="rightbox">
+            <!-- sub box 1 -->
+            <div class="post">
+                <div class="top">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png" alt="Gengar">
+                    <p class="count" > 9 like(s)</p>
+                    <button onclick="add1(this)">Like</button>
+                </div>
+                <p class="caption">Sometimes, on a dark night, your shadow thrown by a streetlight will suddenly and startlingly overtake you. It is actually <a href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png">GENGAR</a>  running past you, pretending to be your shadow.</p>
+            </div>
+            <!-- sub box 2 -->
+            <div class="post">
+                <div class="top">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png" alt="Snorlax">
+                    <p class="count1" > 12 like(s)</p>
+                    <button onclick="add2(this)">Like</button>
+                </div>
+                <p class="caption"><a href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"> SNORLAX’s</a>  typical day consists of nothing more than eating and sleeping. It is such a docile POKéMON that there are children who use its expansive belly as a place to play.</p>
+            </div>
+            <!-- sub box 3 -->
+            <div class="post">
+                <div class="top">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png" alt="Arcanine">
+                    <p class="count2" > 10 like(s)</p>
+                    <button onclick="add3(this)">Like</button>
+                </div>
+                <p class="caption"> <a href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png">ARCANINE</a>  is known for its high speed. It is said to be capable of running over 6,200 miles in a single day and night. The fire that blazes wildly within this POKéMON’s body is its source of power.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
